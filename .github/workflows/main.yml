@@ -22,4 +22,4 @@ jobs:
         run: npm install -g surge
 
       - name: Deploy to Surge
-        run: surge ./ ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ practica-surge-juanburgos.surge.sh ${{ secrets.SURGE_TOKEN }}
